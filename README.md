@@ -64,3 +64,7 @@ This script trains models for classification tasks.
  * [mctorch](https://github.com/mctorch/mctorch)
  * [geoopt](https://github.com/geoopt/geoopt)
  * [hgcn](https://github.com/HazyResearch/hgcn)
+ 
+## References
+
+[1] Sawhney, R., Agarwal, S., Neerkaje, A., and Pathak, K., 2022, March. Orthogonal Enriching of Directed Networks. In International Conference on Artificial Intelligence and Statistics. PMLR.
