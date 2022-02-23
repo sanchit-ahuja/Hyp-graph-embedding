@@ -3,7 +3,7 @@ Multi-Manifold Recursive Interaction Learning (MRIL)
 
 ## 1. Overview
 
-This repository contains the codebase for MRIL, the model introduced in the paper "Orthogonal Enriching of Directed Networks" --- The 25th International Conference on Artificial Intelligence and Statistics (AISTATS 2022)
+This repository contains the codebase for MRIL, the model introduced in the paper "Orthogonal Multi-Manifold Enriching of Directed Networks" --- The 25th International Conference on Artificial Intelligence and Statistics (AISTATS 2022)
 
 
 
@@ -67,4 +67,4 @@ This script trains models for classification tasks.
  
 ## References
 
-[1] Sawhney, R., Agarwal, S., Neerkaje, A., and Pathak, K., 2022, March. Orthogonal Enriching of Directed Networks. In International Conference on Artificial Intelligence and Statistics. PMLR.
+[1] Sawhney, R., Agarwal, S., Neerkaje, A., and Pathak, K., 2022, March. Orthogonal Multi-Manifold Enriching of Directed Networks. In International Conference on Artificial Intelligence and Statistics. PMLR.
