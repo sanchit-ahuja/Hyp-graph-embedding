@@ -72,18 +72,18 @@ This script trains models for classification tasks.
 If our work was helpful in your research, please kindly cite this work:
 ```
 @InProceedings{pmlr-v151-sawhney22a,
-  title = 	 { Orthogonal Multi-Manifold Enriching of Directed Networks },
-  author =       {Sawhney, Ramit and Agarwal, Shivam and Neerkaje, Atula T. and Jayesh Pathak, Kapil},
-  booktitle = 	 {Proceedings of The 25th International Conference on Artificial Intelligence and Statistics},
-  pages = 	 {6074--6086},
-  year = 	 {2022},
-  editor = 	 {Camps-Valls, Gustau and Ruiz, Francisco J. R. and Valera, Isabel},
-  volume = 	 {151},
-  series = 	 {Proceedings of Machine Learning Research},
-  month = 	 {28--30 Mar},
-  publisher =    {PMLR},
-  pdf = 	 {https://proceedings.mlr.press/v151/sawhney22a/sawhney22a.pdf},
-  url = 	 {https://proceedings.mlr.press/v151/sawhney22a.html}
+  title = { Orthogonal Multi-Manifold Enriching of Directed Networks },
+  author = {Sawhney, Ramit and Agarwal, Shivam and Neerkaje, Atula T. and Jayesh Pathak, Kapil},
+  booktitle = {Proceedings of The 25th International Conference on Artificial Intelligence and Statistics},
+  pages = {6074--6086},
+  year = {2022},
+  editor = {Camps-Valls, Gustau and Ruiz, Francisco J. R. and Valera, Isabel},
+  volume = {151},
+  series = {Proceedings of Machine Learning Research},
+  month = {28--30 Mar},
+  publisher = {PMLR},
+  pdf = {https://proceedings.mlr.press/v151/sawhney22a/sawhney22a.pdf},
+  url = {https://proceedings.mlr.press/v151/sawhney22a.html}
 }
 ```
  
