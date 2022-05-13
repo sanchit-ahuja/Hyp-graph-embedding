@@ -35,7 +35,9 @@ Example: Download the PHEME dataset from https://figshare.com/articles/dataset/P
 
 ```python main.py```
 
+
 This script trains models for classification tasks. 
+
 ```
  Arguments:
   --h-size DIM          Hidden embedding dimension
@@ -64,7 +66,6 @@ This script trains models for classification tasks.
  * [mctorch](https://github.com/mctorch/mctorch)
  * [geoopt](https://github.com/geoopt/geoopt)
  * [hgcn](https://github.com/HazyResearch/hgcn)
-```
 
 ## Cite
 
