@@ -34,7 +34,7 @@ def train_loop(model,data_loader,optimizer,device,h_size,num_classes,beta,gamma)
 
     model.train()
     for step, batch in tqdm(enumerate(data_loader),total=len(data_loader)):
-        g = batch.graph
+        g, emb = batch.graph
         n = g.number_of_nodes()
 
         h = th.zeros((n, h_size)).to(device)
@@ -174,6 +174,7 @@ def main(args):
     train_loader = DataLoader(dataset=train_dataset,batch_size=batch_size,collate_fn=batcher(device),shuffle=False,num_workers=0)
     val_loader = DataLoader(dataset=val_dataset,batch_size=batch_size,collate_fn=batcher(device),shuffle=False,num_workers=0)
     test_loader = DataLoader(dataset=test_dataset,batch_size=batch_size,collate_fn=batcher(device),shuffle=False,num_workers=0)
+    return
 
     counter=0
     best_val_metrics = model.init_metric_dict()
@@ -244,7 +245,7 @@ if __name__ == '__main__':
     parser.add_argument('--dropout', type=float, default=0.4)
     parser.add_argument('-beta', '--beta', default=0.9999, type=float)
     parser.add_argument('-gamma', '--gamma', default=2.5, type=float)
-    parser.add_argument('--data-dir', type=str, default='./data',help='directory for data')
+    parser.add_argument('--data-dir', type=str, default='pheme_dgl_full_roberta_final.pkl',help='directory for data')
     parser.add_argument('--optimizer', type=str, default='Adam',choices=['Adam','RiemannianAdam'])
     parser.add_argument('--save', action='store_true')
     parser.add_argument('--save-model', action='store_true')

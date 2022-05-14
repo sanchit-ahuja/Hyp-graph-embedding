@@ -10,20 +10,23 @@ import signal
 from tqdm import tqdm
 
 class Processor():
-    def __init__(self, data_dir):
+    def __init__(self, filepath):
 
         self.attrs = ['x', 'y', 'del_t', 'train_mask', 'val_mask', 'test_mask']
         self.num_classes = 2
-        filepath = os.path.join(data_dir,"pheme_graph.pkl")
+        # filepath = os.path.join(data_dir,"pheme_graph.pkl")
 
         with open(filepath,"rb") as f:
             dataset = pickle.load(f)
+            graphs = dataset['ds']
+            hyp_embeddings = dataset['hyp_embedding']
 
-        self.trees = dataset
+        self.trees = graphs
         self.labels = None
+        self.hyp_embeddings = hyp_embeddings
 
     def __getitem__(self,item):
-        return self.trees[item]
+        return self.trees[item], self.hyp_embeddings[item]
     
     def __len__(self):
         return len(self.trees)
@@ -33,14 +36,15 @@ class Processor():
 
 
 class DAGDataset(torch.utils.data.Dataset):
-    def __init__(self, trees, labels, num_classes=2):
+    def __init__(self, trees, labels,hyp_embeddings, num_classes=2):
         
         self.trees = trees
         self.labels = labels
         self.num_classes = num_classes
+        self.hyp_embeddings = hyp_embeddings
 
     def __getitem__(self,item):
-        return self.trees[item]
+        return self.trees[item], self.hyp_embeddings[item]
     
     def __len__(self):
         return len(self.trees)
@@ -118,3 +122,10 @@ def process_split(processor):
     new_trees = [dgl.from_networkx(t,node_attrs=attrs) for t in final_trees] 
     processor.trees = new_trees
     return processor
+
+
+
+if __name__ == "__main__":
+    data_dir = 'pheme_dgl_full_roberta_final.pkl'
+    train,val,test = create_dataset(data_dir)
+    print(len(train),len(val),len(test))
