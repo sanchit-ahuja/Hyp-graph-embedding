@@ -1,0 +1,402 @@
+INFO:root:-----PARAMS-----
+INFO:root:Namespace(device='auto', batch_size=128, x_size=1024, h_size=1026, epochs=100, patience=20, min_epochs=50, lr=0.002, weight_decay=0.0001, dropout=0.4, beta=0.9999, gamma=2.5, data_dir='pheme_dgl_full_roberta_final.pkl', optimizer='Adam', save=False, save_model=False, save_dir='./saved', c=1.0)
+INFO:root:-----Train-----
+INFO:root:loss: 0.646693667396903, f1: 0.40375632835101255
+INFO:root:-----Validation-----
+INFO:root:val_loss: 0.639548397064209, val_f1: 0.5183560648334393
+INFO:root:-----Train-----
+INFO:root:loss: 0.6171772666275501, f1: 0.5011500567356271
+INFO:root:-----Validation-----
+INFO:root:val_loss: 0.6155166983604431, val_f1: 0.5368267358857884
+INFO:root:-----Train-----
+INFO:root:loss: 0.592931343242526, f1: 0.6083321895422615
+INFO:root:-----Validation-----
+INFO:root:val_loss: 0.6008054256439209, val_f1: 0.5638947434318984
+INFO:root:-----Train-----
+INFO:root:loss: 0.5830014068633318, f1: 0.6327955991878926
+INFO:root:-----Validation-----
+INFO:root:val_loss: 0.5878955483436584, val_f1: 0.653283216796242
+INFO:root:-----Train-----
+INFO:root:loss: 0.5762436836957932, f1: 0.6697279065097912
+INFO:root:-----Validation-----
+INFO:root:val_loss: 0.5815646767616272, val_f1: 0.6471046620986161
+INFO:root:-----Train-----
+INFO:root:loss: 0.5662384610623121, f1: 0.679929507838437
+INFO:root:-----Validation-----
+INFO:root:val_loss: 0.575786030292511, val_f1: 0.6819203146438759
+INFO:root:-----Train-----
+INFO:root:loss: 0.5616745688021183, f1: 0.7013881514995921
+INFO:root:-----Validation-----
+INFO:root:val_loss: 0.5698256015777587, val_f1: 0.6578174626955114
+INFO:root:-----Train-----
+INFO:root:loss: 0.5585124734789133, f1: 0.7080885347147323
+INFO:root:-----Validation-----
+INFO:root:val_loss: 0.5631907939910888, val_f1: 0.7017911619681532
+INFO:root:-----Train-----
+INFO:root:loss: 0.5536962496116757, f1: 0.7139592675279078
+INFO:root:-----Validation-----
+INFO:root:val_loss: 0.5658865928649902, val_f1: 0.6585357492467728
+INFO:root:-----Train-----
+INFO:root:loss: 0.5548614822328091, f1: 0.7034985061475127
+INFO:root:-----Validation-----
+INFO:root:val_loss: 0.5601640820503235, val_f1: 0.7627423822714682
+INFO:root:-----Train-----
+INFO:root:loss: 0.5473217032849789, f1: 0.7228767732571749
+INFO:root:-----Validation-----
+INFO:root:val_loss: 0.5557629585266113, val_f1: 0.6921518913562976
+INFO:root:-----Train-----
+INFO:root:loss: 0.5462636649608612, f1: 0.7166287274534483
+INFO:root:-----Validation-----
+INFO:root:val_loss: 0.5506996035575866, val_f1: 0.7591700680272109
+INFO:root:-----Train-----
+INFO:root:loss: 0.5462073236703873, f1: 0.7325612297343923
+INFO:root:-----Validation-----
+INFO:root:val_loss: 0.5541707158088685, val_f1: 0.6783956838797651
+INFO:root:-----Train-----
+INFO:root:loss: 0.5447988677769899, f1: 0.7241926163723916
+INFO:root:-----Validation-----
+INFO:root:val_loss: 0.5466050624847412, val_f1: 0.7614019710759384
+INFO:root:-----Train-----
+INFO:root:loss: 0.5409828461706638, f1: 0.7389082124159925
+INFO:root:-----Validation-----
+INFO:root:val_loss: 0.5446838736534119, val_f1: 0.7482502066685037
+INFO:root:-----Train-----
+INFO:root:loss: 0.5392562290653586, f1: 0.7366219761245123
+INFO:root:-----Validation-----
+INFO:root:val_loss: 0.5530752301216125, val_f1: 0.6799481805662275
+INFO:root:-----Train-----
+INFO:root:loss: 0.5402949191629887, f1: 0.7370409710623461
+INFO:root:-----Validation-----
+INFO:root:val_loss: 0.5498667120933532, val_f1: 0.6890252877623716
+INFO:root:-----Train-----
+INFO:root:loss: 0.5384084573015571, f1: 0.7392194288296016
+INFO:root:-----Validation-----
+INFO:root:val_loss: 0.5405965924263001, val_f1: 0.7579780688561351
+INFO:root:-----Train-----
+INFO:root:loss: 0.5348653821274638, f1: 0.747041012562035
+INFO:root:-----Validation-----
+INFO:root:val_loss: 0.5424178004264831, val_f1: 0.7265917337315253
+INFO:root:-----Train-----
+INFO:root:loss: 0.5393298650160432, f1: 0.7393139255800284
+INFO:root:-----Validation-----
+INFO:root:val_loss: 0.5383782863616944, val_f1: 0.7573676563313869
+INFO:root:-----Train-----
+INFO:root:loss: 0.5343951107934117, f1: 0.7478835693133181
+INFO:root:-----Validation-----
+INFO:root:val_loss: 0.5442188739776611, val_f1: 0.7014552531443344
+INFO:root:-----Train-----
+INFO:root:loss: 0.5337478686124086, f1: 0.7379600848186865
+INFO:root:-----Validation-----
+INFO:root:val_loss: 0.5413067936897278, val_f1: 0.7265917337315253
+INFO:root:-----Train-----
+INFO:root:loss: 0.5338503429666162, f1: 0.7425257731958762
+INFO:root:-----Validation-----
+INFO:root:val_loss: 0.5353671669960022, val_f1: 0.7636268628355818
+INFO:root:-----Train-----
+INFO:root:loss: 0.5348358321934938, f1: 0.7484517129906809
+INFO:root:-----Validation-----
+INFO:root:val_loss: 0.536370849609375, val_f1: 0.7469181971799774
+INFO:root:-----Train-----
+INFO:root:loss: 0.5338135538622737, f1: 0.7474204807933216
+INFO:root:-----Validation-----
+INFO:root:val_loss: 0.5372406959533691, val_f1: 0.7393902370520167
+INFO:root:-----Train-----
+INFO:root:loss: 0.5312166661024094, f1: 0.7473522058224766
+INFO:root:-----Validation-----
+INFO:root:val_loss: 0.5354864478111268, val_f1: 0.7455436720142603
+INFO:root:-----Train-----
+INFO:root:loss: 0.5332349063828588, f1: 0.7427380072358385
+INFO:root:-----Validation-----
+INFO:root:val_loss: 0.5332877516746521, val_f1: 0.7657852279252919
+INFO:root:-----Train-----
+INFO:root:loss: 0.5270663974806666, f1: 0.7583752049505474
+INFO:root:-----Validation-----
+INFO:root:val_loss: 0.5389475226402283, val_f1: 0.7249371086014023
+INFO:root:-----Train-----
+INFO:root:loss: 0.5296077160164714, f1: 0.7558331864971326
+INFO:root:-----Validation-----
+INFO:root:val_loss: 0.5307634830474853, val_f1: 0.7663989992054503
+INFO:root:-----Train-----
+INFO:root:loss: 0.5270123649388552, f1: 0.7608976087058625
+INFO:root:-----Validation-----
+INFO:root:val_loss: 0.5316452741622925, val_f1: 0.7629364030949235
+INFO:root:-----Train-----
+INFO:root:loss: 0.5328548811376095, f1: 0.7529075893876497
+INFO:root:-----Validation-----
+INFO:root:val_loss: 0.5295722007751464, val_f1: 0.7820036861506057
+INFO:root:-----Train-----
+INFO:root:loss: 0.5289888847619295, f1: 0.760038131724178
+INFO:root:-----Validation-----
+INFO:root:val_loss: 0.531190550327301, val_f1: 0.7651945061271486
+INFO:root:-----Train-----
+INFO:root:loss: 0.5292104203253984, f1: 0.7572771897220427
+INFO:root:-----Validation-----
+INFO:root:val_loss: 0.5370498895645142, val_f1: 0.7249371086014023
+INFO:root:-----Train-----
+INFO:root:loss: 0.5256371693685651, f1: 0.7518920714545065
+INFO:root:-----Validation-----
+INFO:root:val_loss: 0.5294567823410035, val_f1: 0.7629364030949235
+INFO:root:-----Train-----
+INFO:root:loss: 0.5286901202052832, f1: 0.7427599863540704
+INFO:root:-----Validation-----
+INFO:root:val_loss: 0.5378593325614929, val_f1: 0.7157359307359308
+INFO:root:-----Train-----
+INFO:root:loss: 0.5224488340318203, f1: 0.7588545343896935
+INFO:root:-----Validation-----
+INFO:root:val_loss: 0.5286306262016296, val_f1: 0.7606708992963941
+INFO:root:-----Train-----
+INFO:root:loss: 0.528738989494741, f1: 0.7500393106574923
+INFO:root:-----Validation-----
+INFO:root:val_loss: 0.5334749937057495, val_f1: 0.7362493609068952
+INFO:root:-----Train-----
+INFO:root:loss: 0.5281105935573578, f1: 0.7525229152551041
+INFO:root:-----Validation-----
+INFO:root:val_loss: 0.5309399127960205, val_f1: 0.7502013777012388
+INFO:root:-----Train-----
+INFO:root:loss: 0.5275709023699164, f1: 0.7586593373517833
+INFO:root:-----Validation-----
+INFO:root:val_loss: 0.5250764131546021, val_f1: 0.78263744189774
+INFO:root:-----Train-----
+INFO:root:loss: 0.523830708116293, f1: 0.7584625552900504
+INFO:root:-----Validation-----
+INFO:root:val_loss: 0.5345306515693664, val_f1: 0.7290121143999001
+INFO:root:-----Train-----
+INFO:root:loss: 0.5205173054710031, f1: 0.7621592390320054
+INFO:root:-----Validation-----
+INFO:root:val_loss: 0.5282505869865417, val_f1: 0.764594327176781
+INFO:root:-----Train-----
+INFO:root:loss: 0.525788864120841, f1: 0.7532766464242888
+INFO:root:-----Validation-----
+INFO:root:val_loss: 0.5327376842498779, val_f1: 0.7402760882212938
+INFO:root:-----Train-----
+INFO:root:loss: 0.5234098983928561, f1: 0.7572964930052855
+INFO:root:-----Validation-----
+INFO:root:val_loss: 0.5244303464889526, val_f1: 0.7729851752021564
+INFO:root:-----Train-----
+INFO:root:loss: 0.5246917922049761, f1: 0.7541404735789812
+INFO:root:-----Validation-----
+INFO:root:val_loss: 0.5262395739555359, val_f1: 0.7612810812292679
+INFO:root:-----Train-----
+INFO:root:loss: 0.5191745040938258, f1: 0.7695248835314494
+INFO:root:-----Validation-----
+INFO:root:val_loss: 0.5311457991600037, val_f1: 0.7514183799573082
+INFO:root:-----Train-----
+INFO:root:loss: 0.5233819168061018, f1: 0.756112543531855
+INFO:root:-----Validation-----
+INFO:root:val_loss: 0.525190806388855, val_f1: 0.7618816483907135
+INFO:root:-----Train-----
+INFO:root:loss: 0.5244054831564426, f1: 0.7581022844328572
+INFO:root:-----Validation-----
+INFO:root:val_loss: 0.5226407527923584, val_f1: 0.7831067572970811
+INFO:root:-----Train-----
+INFO:root:loss: 0.5250563081353903, f1: 0.7585299093857671
+INFO:root:-----Validation-----
+INFO:root:val_loss: 0.5253600239753723, val_f1: 0.7657852279252919
+INFO:root:-----Train-----
+INFO:root:loss: 0.5236526355147362, f1: 0.7605680388484375
+INFO:root:-----Validation-----
+INFO:root:val_loss: 0.5249035954475403, val_f1: 0.7624727223131478
+INFO:root:-----Train-----
+INFO:root:loss: 0.5210388088598847, f1: 0.7607547914392261
+INFO:root:-----Validation-----
+INFO:root:val_loss: 0.5310635685920715, val_f1: 0.7443028155356923
+INFO:root:-----Train-----
+INFO:root:loss: 0.523109233006835, f1: 0.7584625552900504
+INFO:root:-----Validation-----
+INFO:root:val_loss: 0.5254322528839112, val_f1: 0.764594327176781
+INFO:root:-----Train-----
+INFO:root:loss: 0.5181491319090128, f1: 0.7587666031729798
+INFO:root:-----Validation-----
+INFO:root:val_loss: 0.5251449346542358, val_f1: 0.7606708992963941
+INFO:root:-----Train-----
+INFO:root:loss: 0.5228001940995455, f1: 0.7678434646255549
+INFO:root:-----Validation-----
+INFO:root:val_loss: 0.5256845116615295, val_f1: 0.7639845687517223
+INFO:root:-----Train-----
+INFO:root:loss: 0.5182494530454278, f1: 0.7652027027027026
+INFO:root:-----Validation-----
+INFO:root:val_loss: 0.5354748725891113, val_f1: 0.7223572887289702
+INFO:root:-----Train-----
+INFO:root:loss: 0.5193631732836366, f1: 0.7651411580713203
+INFO:root:-----Validation-----
+INFO:root:val_loss: 0.5318950295448304, val_f1: 0.7379587829112371
+INFO:root:-----Train-----
+INFO:root:loss: 0.5180930532515049, f1: 0.7655897176837998
+INFO:root:-----Validation-----
+INFO:root:val_loss: 0.523896336555481, val_f1: 0.7696888074598704
+INFO:root:-----Train-----
+INFO:root:loss: 0.5198821108788252, f1: 0.7624692584894985
+INFO:root:-----Validation-----
+INFO:root:val_loss: 0.534337317943573, val_f1: 0.7298029768562333
+INFO:root:-----Train-----
+INFO:root:loss: 0.5203651683405042, f1: 0.7605213660383086
+INFO:root:-----Validation-----
+INFO:root:val_loss: 0.5196389853954315, val_f1: 0.7882496291587202
+INFO:root:-----Train-----
+INFO:root:loss: 0.5211750976741314, f1: 0.7614980121029147
+INFO:root:-----Validation-----
+INFO:root:val_loss: 0.5259788274765015, val_f1: 0.7650262641911354
+INFO:root:-----Train-----
+INFO:root:loss: 0.5171107966452837, f1: 0.7653519638066004
+INFO:root:-----Validation-----
+INFO:root:val_loss: 0.5202619194984436, val_f1: 0.7718431117095398
+INFO:root:-----Train-----
+INFO:root:loss: 0.52151308208704, f1: 0.7627329733331063
+INFO:root:-----Validation-----
+INFO:root:val_loss: 0.5216229915618896, val_f1: 0.7702601727723024
+INFO:root:-----Train-----
+INFO:root:loss: 0.5179487867280841, f1: 0.7746629432489351
+INFO:root:-----Validation-----
+INFO:root:val_loss: 0.524985408782959, val_f1: 0.7639845687517223
+INFO:root:-----Train-----
+INFO:root:loss: 0.5191068602725863, f1: 0.767454954954955
+INFO:root:-----Validation-----
+INFO:root:val_loss: 0.5239284038543701, val_f1: 0.7629364030949235
+INFO:root:-----Train-----
+INFO:root:loss: 0.5223841713741422, f1: 0.7487455216464047
+INFO:root:-----Validation-----
+INFO:root:val_loss: 0.5208690524101257, val_f1: 0.7669387755102042
+INFO:root:-----Train-----
+INFO:root:loss: 0.5169626856222749, f1: 0.7588618728544835
+INFO:root:-----Validation-----
+INFO:root:val_loss: 0.5194258093833923, val_f1: 0.7763143675366078
+INFO:root:-----Train-----
+INFO:root:loss: 0.5193288093432784, f1: 0.7700611001230567
+INFO:root:-----Validation-----
+INFO:root:val_loss: 0.5188522815704346, val_f1: 0.7778448576564974
+INFO:root:-----Train-----
+INFO:root:loss: 0.520394716411829, f1: 0.7581515491056554
+INFO:root:-----Validation-----
+INFO:root:val_loss: 0.5208901524543762, val_f1: 0.7713768017590055
+INFO:root:-----Train-----
+INFO:root:loss: 0.5194828463718295, f1: 0.762565373962155
+INFO:root:-----Validation-----
+INFO:root:val_loss: 0.523474371433258, val_f1: 0.7696888074598704
+INFO:root:-----Train-----
+INFO:root:loss: 0.5171374119818211, f1: 0.7616116555014425
+INFO:root:-----Validation-----
+INFO:root:val_loss: 0.5182798266410827, val_f1: 0.7869119019059043
+INFO:root:-----Train-----
+INFO:root:loss: 0.5185437342152, f1: 0.7657948865104913
+INFO:root:-----Validation-----
+INFO:root:val_loss: 0.5194474458694458, val_f1: 0.7756776812606399
+INFO:root:-----Train-----
+INFO:root:loss: 0.5179970348253846, f1: 0.7672739619427302
+INFO:root:-----Validation-----
+INFO:root:val_loss: 0.5249133706092834, val_f1: 0.7662548977113628
+INFO:root:-----Train-----
+INFO:root:loss: 0.5226293411105871, f1: 0.7521571310716084
+INFO:root:-----Validation-----
+INFO:root:val_loss: 0.522332739830017, val_f1: 0.7702605019094382
+INFO:root:-----Train-----
+INFO:root:loss: 0.5142434407025576, f1: 0.7654862930774783
+INFO:root:-----Validation-----
+INFO:root:val_loss: 0.5178620457649231, val_f1: 0.7778448576564974
+INFO:root:-----Train-----
+INFO:root:loss: 0.5188630502671003, f1: 0.761509062222903
+INFO:root:-----Validation-----
+INFO:root:val_loss: 0.5272638678550721, val_f1: 0.7514183799573082
+INFO:root:-----Train-----
+INFO:root:loss: 0.517428326420486, f1: 0.7638750751057872
+INFO:root:-----Validation-----
+INFO:root:val_loss: 0.5174045622348785, val_f1: 0.7831067572970811
+INFO:root:-----Train-----
+INFO:root:loss: 0.5167553909122944, f1: 0.7662410155859057
+INFO:root:-----Validation-----
+INFO:root:val_loss: 0.5186642408370972, val_f1: 0.7741213463391545
+INFO:root:-----Train-----
+INFO:root:loss: 0.5150171285495162, f1: 0.7635933567239642
+INFO:root:-----Validation-----
+INFO:root:val_loss: 0.5229088544845581, val_f1: 0.7662548977113628
+INFO:root:-----Train-----
+INFO:root:loss: 0.5176763031631708, f1: 0.7666897504138377
+INFO:root:-----Validation-----
+INFO:root:val_loss: 0.5183977603912353, val_f1: 0.7778448576564974
+INFO:root:-----Train-----
+INFO:root:loss: 0.5185015508905053, f1: 0.7609566952899398
+INFO:root:-----Validation-----
+INFO:root:val_loss: 0.527554965019226, val_f1: 0.7481235121131493
+INFO:root:-----Train-----
+INFO:root:loss: 0.5164676588028669, f1: 0.7687938421870852
+INFO:root:-----Validation-----
+INFO:root:val_loss: 0.5178687572479248, val_f1: 0.7691374663072776
+INFO:root:-----Train-----
+INFO:root:loss: 0.5158934211358428, f1: 0.7700514384764306
+INFO:root:-----Validation-----
+INFO:root:val_loss: 0.5190406799316406, val_f1: 0.7702601727723024
+INFO:root:-----Train-----
+INFO:root:loss: 0.5142590934410691, f1: 0.768840809191442
+INFO:root:-----Validation-----
+INFO:root:val_loss: 0.5230459690093994, val_f1: 0.7707732162157526
+INFO:root:-----Train-----
+INFO:root:loss: 0.5155357457697392, f1: 0.7723405133506474
+INFO:root:-----Validation-----
+INFO:root:val_loss: 0.5253444075584411, val_f1: 0.754827003518103
+INFO:root:-----Train-----
+INFO:root:loss: 0.5162233524024487, f1: 0.7698987729360418
+INFO:root:-----Validation-----
+INFO:root:val_loss: 0.5300101399421692, val_f1: 0.7435541080073698
+INFO:root:-----Train-----
+INFO:root:loss: 0.5232243882492185, f1: 0.7606973145119288
+INFO:root:-----Validation-----
+INFO:root:val_loss: 0.5199800729751587, val_f1: 0.7685983905517282
+INFO:root:-----Train-----
+INFO:root:loss: 0.5187939899042249, f1: 0.7663276634725029
+INFO:root:-----Validation-----
+INFO:root:val_loss: 0.516410517692566, val_f1: 0.7849070818684079
+INFO:root:-----Train-----
+INFO:root:loss: 0.5155632272362709, f1: 0.7685163749613133
+INFO:root:-----Validation-----
+INFO:root:val_loss: 0.5169169187545777, val_f1: 0.7778448576564974
+INFO:root:-----Train-----
+INFO:root:loss: 0.5179516030475497, f1: 0.7614103803272793
+INFO:root:-----Validation-----
+INFO:root:val_loss: 0.5196653127670288, val_f1: 0.766366612111293
+INFO:root:-----Train-----
+INFO:root:loss: 0.5142777906730771, f1: 0.7656777409246669
+INFO:root:-----Validation-----
+INFO:root:val_loss: 0.5205104947090149, val_f1: 0.7696888074598704
+INFO:root:-----Train-----
+INFO:root:loss: 0.5139188133180141, f1: 0.7670242537313433
+INFO:root:-----Validation-----
+INFO:root:val_loss: 0.5208347797393799, val_f1: 0.7696888074598704
+INFO:root:-----Train-----
+INFO:root:loss: 0.5152256404981017, f1: 0.7694703404248289
+INFO:root:-----Validation-----
+INFO:root:val_loss: 0.5239160776138305, val_f1: 0.7587814066871659
+INFO:root:-----Train-----
+INFO:root:loss: 0.5096769658848643, f1: 0.7767873740310521
+INFO:root:-----Validation-----
+INFO:root:val_loss: 0.5263422131538391, val_f1: 0.7521215516034169
+INFO:root:-----Train-----
+INFO:root:loss: 0.5108544696122408, f1: 0.7748965505542572
+INFO:root:-----Validation-----
+INFO:root:val_loss: 0.5155464112758636, val_f1: 0.78263744189774
+INFO:root:-----Train-----
+INFO:root:loss: 0.5161895239725709, f1: 0.7606981981981982
+INFO:root:-----Validation-----
+INFO:root:val_loss: 0.5151346683502197, val_f1: 0.7861387779453439
+INFO:root:-----Train-----
+INFO:root:loss: 0.5159931667149067, f1: 0.764727888693916
+INFO:root:-----Validation-----
+INFO:root:val_loss: 0.520915150642395, val_f1: 0.7674452829542927
+INFO:root:-----Train-----
+INFO:root:loss: 0.5136008346453309, f1: 0.7681655697642891
+INFO:root:-----Validation-----
+INFO:root:val_loss: 0.5203189849853516, val_f1: 0.7674452829542927
+INFO:root:-----Train-----
+INFO:root:loss: 0.5143389105796814, f1: 0.7690284695208769
+INFO:root:-----Validation-----
+INFO:root:val_loss: 0.5222535610198975, val_f1: 0.7604375790988367
+INFO:root:-----Train-----
+INFO:root:loss: 0.5189421288669109, f1: 0.7585004196271105
+INFO:root:-----Validation-----
+INFO:root:val_loss: 0.5167678594589233, val_f1: 0.7680558940612561
+INFO:root:-----Train-----
+INFO:root:loss: 0.5120618445798755, f1: 0.7717913832199548
+INFO:root:-----Validation-----
+INFO:root:val_loss: 0.515701949596405, val_f1: 0.7746485999655937
+INFO:root:-----Train-----
+INFO:root:loss: 0.5136522827669978, f1: 0.7671656122953958
+INFO:root:-----Validation-----
+INFO:root:val_loss: 0.5189039587974549, val_f1: 0.7724874932315311

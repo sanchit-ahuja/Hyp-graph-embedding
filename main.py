@@ -34,7 +34,7 @@ def train_loop(model,data_loader,optimizer,device,h_size,num_classes,beta,gamma)
 
     model.train()
     for step, batch in tqdm(enumerate(data_loader),total=len(data_loader)):
-        g, emb = batch.graph
+        g = batch.graph
         n = g.number_of_nodes()
 
         h = th.zeros((n, h_size)).to(device)
@@ -73,6 +73,7 @@ def val_loop(model,data_loader,device,h_size,num_classes,beta,gamma):
     val_logits = []
     model.eval()
     for step, batch in enumerate(data_loader):
+        
         g = batch.graph
         n = g.number_of_nodes()
 
@@ -172,9 +173,12 @@ def main(args):
     batcher = initializer.initialize_batcher()
 
     train_loader = DataLoader(dataset=train_dataset,batch_size=batch_size,collate_fn=batcher(device),shuffle=False,num_workers=0)
+    val = next(iter(train_loader))
+    print(val)
+
     val_loader = DataLoader(dataset=val_dataset,batch_size=batch_size,collate_fn=batcher(device),shuffle=False,num_workers=0)
     test_loader = DataLoader(dataset=test_dataset,batch_size=batch_size,collate_fn=batcher(device),shuffle=False,num_workers=0)
-    return
+    # return
 
     counter=0
     best_val_metrics = model.init_metric_dict()

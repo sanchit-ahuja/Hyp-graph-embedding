@@ -40,7 +40,7 @@ def CB_loss(labels, logits, samples_per_cls, no_of_classes, loss_type, beta, gam
     elif loss_type == "sigmoid":
         cb_loss = F.binary_cross_entropy_with_logits(input=logits, target=labels_one_hot, weight=weights)
     elif loss_type == "softmax":
-        pred = logits.softmax(dim=1)
+        pred = logits.softmax(dim=-1)
         samples_per_cls = torch.Tensor(samples_per_cls).to(device)
         cb_loss = F.cross_entropy(input=pred, target=labels_one_hot.argmax(dim=-1))
 
